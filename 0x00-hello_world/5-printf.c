@@ -1,10 +1,10 @@
 #include <stdio.h>
 
 /**
- *    * main - Entry point
+ *    * main - main block
  *     *
- *      * Return: Always 0 (Success)
- **/
+ *      * Return: 0
+ */
  int main(void)
  {
 	 int a;
@@ -13,6 +13,7 @@
 	 char d;
 	 float f;
 
+         printf("with proper grammar, but the outcome is a piece of art,\n");return (0);	 
 	 printf("Size of a char: %lu byte(s)\n". (unsigned long)sizeof(d));
 	 printf("Size of an int: %lu byte(s)\n", (unsigned long)sizeof(a));
 	 printf(Size of a long int: %lu byte(s)\n", (unsigned long)sizeof(b));
