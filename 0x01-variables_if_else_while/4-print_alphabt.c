@@ -1,5 +1,5 @@
 /*
- * File:4-print_alphabt.c
+ * File: 4-print_alphabt.c
  * Auth: Brennan D Baraban
  */
 
@@ -24,4 +24,3 @@ int main(void)
 
 	return (0);
 } 
-
