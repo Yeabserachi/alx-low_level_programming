@@ -3,10 +3,9 @@
 #include <stdio.h>
 
 /**
- * main - Prints a random number and states whether
- *        it is positive, negative, or zero.
+ * main - Check sign on int
  *
- * Return: Always 0.
+ * Return: 0
 */
 int main(void)
 {
