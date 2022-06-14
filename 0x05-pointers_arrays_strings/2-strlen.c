@@ -1,19 +1,22 @@
-#include "main.h"
-
-/**
- *_strlen -length of a string
- *0s: A pointer to an int that will be changed/updated
- *
- *Return: void that means our answer is correct
+/*
+ * File: 2-strlen.c
+ * Auth: Brennan D Baraban
  */
 
-int _strlen(char *s)
-{
-int u:
+#include "holberton.h"
 
-u = 0;
-while (s[u] != '\0'
+/**
+ * _strlen - Returns the length of a string.
+ * @str: The string to get the length of.
+ *
+ * Return: The length of @str.
+ */
+size_t _strlen(const char *str)
 {
-u++;
+	size_t length = 0;
+
+	while (*str++)
+		length++;
+
+	return (length);
 }
-return (u);
